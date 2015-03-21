@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20150220
-MAINTAINER sameer@damagehead.com
+FROM joshuacox/ubuntu:14.04
+MAINTAINER 'josh 'at' webhosting coop'
 
 RUN apt-get update \
  && apt-get install -y mysql-server \
